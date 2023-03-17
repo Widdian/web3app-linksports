@@ -10,7 +10,7 @@ class Web3App extends StatelessWidget {
     return MaterialApp(
       title: 'Web3 App',
       darkTheme: ThemeData.dark(),
-      home: const MyHomePage(title: 'Web3 App'),
+      home: const HomePage(title: 'LinkSports'),
     );
   }
 }

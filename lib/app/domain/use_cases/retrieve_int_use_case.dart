@@ -1,4 +1,4 @@
-import 'package:web3app_linksports/app/domain/data/storage_provider.dart';
+import '../domain.dart';
 
 class RetrieveIntUseCase {
   final StorageProvider storageProvider;

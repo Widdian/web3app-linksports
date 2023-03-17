@@ -1,5 +1,4 @@
-import 'package:web3app_linksports/app/domain/data/storage_provider.dart';
-import 'package:web3app_linksports/app/domain/exceptions/custom_exceptions.dart';
+import '../domain.dart';
 
 class StoreIntUseCase {
   final StorageProvider storageProvider;
