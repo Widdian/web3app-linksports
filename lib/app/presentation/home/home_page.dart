@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:web3app_linksports/app/domain/service/store_service.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -14,8 +13,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    var storeService = context.watch<StoreService>();
-
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
@@ -35,9 +32,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          storeService.storeValue(0);
-        },
+        onPressed: () {},
         tooltip: 'Edit value',
         child: const Icon(Icons.edit),
       ),

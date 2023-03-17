@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:web3app_linksports/app/app.dart';
+
+import 'app/app.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(const Web3App());
 }

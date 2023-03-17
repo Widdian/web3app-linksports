@@ -1,10 +1,10 @@
 import 'package:get_it/get_it.dart';
-import 'package:web3app_linksports/domain/use_cases/retrieve_int_use_case.dart';
-import 'package:web3app_linksports/domain/use_cases/store_int_use_case.dart';
+import 'package:web3app_linksports/app/domain/use_cases/retrieve_int_use_case.dart';
+import 'package:web3app_linksports/app/domain/use_cases/store_int_use_case.dart';
 
 import 'constants.dart';
-import 'data/storage_provider_impl.dart';
-import 'domain/data/storage_provider.dart';
+import 'app/data/storage_provider_impl.dart';
+import 'app/domain/data/storage_provider.dart';
 
 Future<void> setup() async {
   final instance = StorageProviderImpl(privateKey);

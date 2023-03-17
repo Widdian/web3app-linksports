@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/services.dart';
 import 'package:http/http.dart';
-import 'package:web3app_linksports/domain/data/storage_provider.dart';
+import 'package:web3app_linksports/app/domain/data/storage_provider.dart';
 import 'package:web3dart/web3dart.dart';
 import 'package:web_socket_channel/io.dart';
 
