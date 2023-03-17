@@ -58,6 +58,7 @@ class StorageProviderImpl implements StorageProvider {
     final store = _contract.function("store");
     await _client.sendTransaction(
         _credentials,
+        chainId: 1337,
         Transaction.callContract(
           contract: _contract,
           function: store,
