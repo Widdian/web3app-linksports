@@ -59,6 +59,11 @@ class StorageProviderImpl implements StorageProvider {
     final store = _contract.function("store");
     await _client.sendTransaction(
         _credentials,
+
+        /// This is the chainId of the network you're connecting to.
+        /// For Ganache, it's 1337.
+        /// For Mainnet, it's 1 (or leave empty).
+        /// For other networks, check https://chainid.network/
         chainId: 1337,
         Transaction.callContract(
           contract: _contract,
