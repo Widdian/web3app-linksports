@@ -2,7 +2,7 @@
 
 This is a simple application that runs the Storage contract provided by [Remix Ethereum Org](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.18+commit.87f61d96.js).
 
-<img src="[https://github.com/asd/privategithubrepo/images/output/video1.gif](https://user-images.githubusercontent.com/20178351/226338884-2b9b4219-53bb-427b-8259-0d661325c3bb.gif)" width="470" height="600">
+<img src="https://user-images.githubusercontent.com/20178351/226338884-2b9b4219-53bb-427b-8259-0d661325c3bb.gif" width="270" height="600">
 
 
 ## Installation
